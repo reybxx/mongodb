@@ -1,4 +1,4 @@
 # dotenv environment variables file
 .env
-.gitignore
+
 node_modules/
