@@ -62,15 +62,6 @@ router.patch('/:boardId/:postId', async (req, res) => {
     }
 });
 
-/*router.delete('/:boardId/postId', async (req, res) => {
-    try {
-        const removedPost= await Board.posts.remove({_id: req.params.boardId.postId});
-        res.json(removedPost);
-    } catch (err) {
-        res.json({message: err});
-    }
-});*/
-
 //update a Post - works
 router.put('/updated/:boardId/:postId', async (req, res) => {
     try {
