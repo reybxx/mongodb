@@ -1,4 +1,4 @@
-# mongoDb
+# mongoDB
 
 ## Getting started:
 docker compose up
